@@ -1,0 +1,23 @@
+title: "Groppello Liguria - Agricoltura Biologica di Eccellenza"
+description: "Coltivazione biologica di zafferano e piante aromatiche in Liguria. Tradizione, qualità e sostenibilità."
+url: "https://groppelloliguria.github.io"
+baseurl: ""
+
+# Informazioni di contatto
+email: info@groppelloliguria.it
+phone: "+39 XXX XXX XXXX"
+address: "Via [Indirizzo], Liguria, Italia"
+
+# Social media
+social_media:
+  facebook: "groppelloliguria"
+  instagram: "groppelloliguria"
+  
+# SEO
+google_analytics: "GA_MEASUREMENT_ID"
+
+# Collections per prodotti
+collections:
+  prodotti:
+    output: true
+    permalink: /prodotti/:name/
