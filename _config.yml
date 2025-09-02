@@ -3,9 +3,22 @@ description: "Coltivazione biologica di zafferano e piante aromatiche in Liguria
 url: "https://groppelloliguria.github.io"
 baseurl: ""
 
+# Jekyll chiamate
+theme: minima
+repository: "Groppelloliguria/groppelloliguria.github.io"
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+titles_from_headings:
+  strip_title: true
+  collections: true
+    
 # Informazioni di contatto
 email: info@groppelloliguria.it
-phone: "+39 XXX XXX XXXX"
+phone: "+39 340 193 7661"
 address: "Via [Indirizzo], Liguria, Italia"
 
 # Social media
