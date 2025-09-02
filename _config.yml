@@ -3,20 +3,34 @@ description: "Coltivazione rigenerativa di zafferano e piante aromatiche in Ligu
 url: "https://groppelloliguria.github.io"
 baseurl: ""
 
-# Jekyll chiamate
+# Theme
 theme: minima
-repository: "Groppelloliguria/groppelloliguria.github.io"
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:year/:month/:day/:title/
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-titles_from_headings:
-  strip_title: true
-  collections: true
+  - jekyll-seo-tag
 
-# Informazioni di contatto
+# Exclude files from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Contact information and other settings
 email: info@groppelloliguria.it
 phone: "+39 340 193 7661"
 address: "Via [Indirizzo], Liguria, Italia"
@@ -24,3 +38,13 @@ address: "Via [Indirizzo], Liguria, Italia"
 # Social media
 social_media:
   facebook: "groppelloliguria"
+  instagram: "groppelloliguria"
+  
+# SEO
+google_analytics: "GA_MEASUREMENT_ID"
+
+# Collections for products
+collections:
+  prodotti:
+    output: true
+    permalink: /prodotti/:name/
