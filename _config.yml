@@ -30,7 +30,7 @@ exclude:
 # Contact information and other settings
 email: info@groppelloliguria.it
 phone: "+39 340 193 7661"
-address: "Via [insert_yours: indirizzo_completo], Liguria, Italia"
+address: "Liguria, Italia"
 
 # Social media
 social_media:
@@ -38,7 +38,7 @@ social_media:
   instagram: "groppelloliguria"
   
 # SEO
-google_analytics: "[insert_yours: GA_MEASUREMENT_ID]"
+google_analytics: ""
 
 # Collections for products
 collections:
