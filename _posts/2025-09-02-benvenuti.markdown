@@ -3,9 +3,9 @@ layout: post
 title:  "Benvenuti nel Blog di Groppello Liguria!"
 date:   2025-09-02 14:26:18 +0000
 categories: novità agricoltura
-author: "[insert_yours: nome_autore]"
+author: "Team Groppello Liguria"
 excerpt: "Inauguriamo il nostro blog per condividere con voi le storie, i segreti e la passione che animano la nostra azienda agricola ogni giorno."
-image: "[insert_yours: blog_post_image_path]"
+# image: Use default og-image from site configuration
 ---
 
 Benvenuti nel blog di Groppello Liguria! Siamo entusiasti di inaugurare questo spazio dove potremo condividere con voi le storie, i segreti e la passione che animano la nostra azienda agricola ogni giorno.
