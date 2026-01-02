@@ -11,7 +11,7 @@ permalink: /prodotti/
         {% if prodotto.image %}
         <img src="{{ prodotto.image }}" alt="{{ prodotto.title }}" class="product-image">
         {% else %}
-        <img src="[insert_yours: default_product_image]" alt="{{ prodotto.title }}" class="product-image">
+        <img src="/assets/images/products/default-product.jpg" alt="{{ prodotto.title }}" class="product-image">
         {% endif %}
         <div class="product-content">
             <h3 class="product-title">{{ prodotto.title }}</h3>

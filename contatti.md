@@ -44,7 +44,7 @@ permalink: /contatti/
 
 Hai domande sui nostri prodotti o vuoi organizzare una visita? Compila il modulo qui sotto e ti risponderemo al più presto.
 
-<form action="https://formspree.io/f/[insert_yours: formspree_id]" method="POST" class="contact-form" style="max-width: 600px; margin: 2rem auto;">
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form" style="max-width: 600px; margin: 2rem auto;">
     <div style="margin-bottom: 1.5rem;">
         <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Nome *</label>
         <input type="text" id="name" name="name" required style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 0.375rem; font-size: 1rem;">
@@ -85,7 +85,7 @@ Hai domande sui nostri prodotti o vuoi organizzare una visita? Compila il modulo
 [insert_yours: indicazioni_stradali_dettagliate]
 
 <div style="margin: 3rem 0;">
-    <iframe src="[insert_yours: google_maps_embed_url]" width="100%" height="450" style="border:0; border-radius: 0.5rem;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=YOUR_MAP_EMBED_CODE" width="100%" height="450" style="border:0; border-radius: 0.5rem;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
 ## Social Media

@@ -60,7 +60,7 @@ permalink: /blog/
 
 Ricevi aggiornamenti sui nostri prodotti, eventi e novità dall'azienda.
 
-<form action="[insert_yours: newsletter_service_url]" method="POST" style="max-width: 500px; margin: 2rem auto; display: flex; gap: 1rem;">
+<form action="https://example.com/newsletter" method="POST" style="max-width: 500px; margin: 2rem auto; display: flex; gap: 1rem;">
     <input type="email" name="email" placeholder="Il tuo indirizzo email" required style="flex: 1; padding: 0.875rem; border: 1px solid var(--border-color); border-radius: 0.375rem; font-size: 1rem;">
     <button type="submit" class="btn btn-primary">Iscriviti</button>
 </form>

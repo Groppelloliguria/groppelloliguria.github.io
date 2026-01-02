@@ -59,7 +59,7 @@ hero_image: "/assets/images/hero-image.jpg"
         
         <div class="card-grid">
             <div class="card">
-                <img src="[insert_yours: zafferano_image_path]" alt="Zafferano del Groppello" class="card-image">
+                <img src="/assets/images/products/zafferano-preview.jpg" alt="Zafferano del Groppello" class="card-image">
                 <div class="card-content">
                     <h3 class="card-title">Zafferano Rigenerativo</h3>
                     <p class="card-description">Il nostro zafferano è coltivato con metodi tradizionali italiani, raccolto a mano all'alba per preservare tutte le proprietà organolettiche.</p>
@@ -71,24 +71,24 @@ hero_image: "/assets/images/hero-image.jpg"
             </div>
             
             <div class="card">
-                <img src="[insert_yours: herbs_image_path]" alt="Piante Aromatiche" class="card-image">
+                <img src="/assets/images/products/herbs-preview.jpg" alt="Piante Aromatiche" class="card-image">
                 <div class="card-content">
                     <h3 class="card-title">Piante Aromatiche</h3>
                     <p class="card-description">Selezione di erbe mediterranee coltivate biologicamente, perfette per arricchire i vostri piatti con sapori autentici.</p>
                     <div class="card-footer">
-                        <span class="product-price">[insert_yours: prezzo]</span>
+                        <span class="product-price">€ TBD</span>
                         <a href="/prodotti/" class="btn btn-secondary">Esplora</a>
                     </div>
                 </div>
             </div>
             
             <div class="card">
-                <img src="[insert_yours: preserves_image_path]" alt="Prodotti Trasformati" class="card-image">
+                <img src="/assets/images/products/preserves-preview.jpg" alt="Prodotti Trasformati" class="card-image">
                 <div class="card-content">
                     <h3 class="card-title">Prodotti Trasformati</h3>
                     <p class="card-description">Conserve artigianali e specialità gastronomiche realizzate con materie prime di eccellenza del nostro territorio.</p>
                     <div class="card-footer">
-                        <span class="product-price">[insert_yours: prezzo]</span>
+                        <span class="product-price">€ TBD</span>
                         <a href="/prodotti/" class="btn btn-secondary">Vedi tutto</a>
                     </div>
                 </div>
