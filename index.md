@@ -5,7 +5,7 @@ hero_title: "Groppello Liguria"
 hero_subtitle: "Agricoltura Rigenerativa di Eccellenza nel Cuore della Liguria"
 hero_cta: "Scopri i Nostri Prodotti"
 hero_cta_link: "/prodotti/"
-hero_image: "[insert_yours: path_to_hero_image]"
+hero_image: "/assets/images/hero-image.jpg"
 ---
 
 <section class="section features">

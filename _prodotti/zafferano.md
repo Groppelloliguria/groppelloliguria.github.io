@@ -4,7 +4,7 @@ title: "Zafferano del Groppello"
 subtitle: "L'oro rosso della Liguria"
 price: "€50,00"
 weight: "1g"
-image: "[insert_yours: /assets/images/products/zafferano.jpg]"
+image: "/assets/images/products/zafferano.jpg"
 description: "Il nostro zafferano è coltivato seguendo antiche tradizioni italiane"
 ---
 
