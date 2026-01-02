@@ -717,3 +717,71 @@ img {
 .py-3 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
 .py-4 { padding-top: 2rem; padding-bottom: 2rem; }
 .py-5 { padding-top: 3rem; padding-bottom: 3rem; }
+
+/* ===================================
+   Animations
+   =================================== */
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate {
+    opacity: 0;
+}
+
+.animate-in {
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+/* ===================================
+   Additional Responsive Fixes
+   =================================== */
+
+@media (max-width: 768px) {
+    .product-detail-grid {
+        grid-template-columns: 1fr !important;
+    }
+    
+    .blog-post-preview {
+        grid-template-columns: 1fr !important;
+    }
+    
+    .contact-info-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+/* ===================================
+   Print Styles
+   =================================== */
+
+@media print {
+    .site-header,
+    .site-footer,
+    .mobile-menu-toggle,
+    .hero-cta {
+        display: none;
+    }
+    
+    body {
+        font-size: 12pt;
+        line-height: 1.5;
+    }
+    
+    a {
+        text-decoration: underline;
+    }
+    
+    .page-content,
+    .post-content {
+        padding: 0;
+    }
+}

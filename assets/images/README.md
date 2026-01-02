@@ -2,11 +2,25 @@
 
 Questa cartella contiene le immagini utilizzate nel sito web.
 
+## Immagini Obbligatorie
+
+### Open Graph Image
+**File richiesto**: `og-image.jpg`  
+**Dimensioni**: 1200x630px  
+**Descrizione**: Immagine utilizzata quando il sito viene condiviso sui social media (Facebook, Twitter, LinkedIn, etc.)
+
+### Favicon
+**File richiesto**: `favicon.ico`  
+**Dimensioni**: 32x32px o 16x16px  
+**Descrizione**: Icona che appare nel tab del browser
+
 ## Struttura Consigliata
 
 ```
 assets/images/
-├── hero/                    # Immagini hero per homepage
+├── og-image.jpg            # [OBBLIGATORIO] Open Graph per social media
+├── favicon.ico             # [OBBLIGATORIO] Favicon del sito
+├── hero/                   # Immagini hero per homepage
 │   └── hero-main.jpg
 ├── products/               # Immagini prodotti
 │   ├── zafferano.jpg
@@ -24,17 +38,20 @@ assets/images/
 
 ### Dimensioni Consigliate
 
+- **Open Graph Image**: 1200x630px (obbligatorio)
 - **Hero Image**: 1920x1080px (o superiore)
 - **Immagini Prodotti**: 800x600px
 - **Immagini Blog**: 1200x630px
 - **Foto Team**: 400x400px (quadrate)
 - **Logo**: SVG o PNG con sfondo trasparente
+- **Favicon**: 32x32px o 16x16px
 
 ### Formato
 
 - Usa **JPEG** per foto (con compressione 80-90%)
 - Usa **PNG** per immagini con trasparenza
 - Usa **SVG** per loghi e icone
+- Usa **ICO** per favicon
 
 ### Ottimizzazione
 
