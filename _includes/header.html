@@ -1,0 +1,23 @@
+<header class="site-header">
+    <div class="container">
+        <nav class="main-nav">
+            <a href="{{ '/' | relative_url }}" class="logo">
+                <span class="logo-text">{{ site.title | split: ' - ' | first }}</span>
+            </a>
+            
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu">
+                <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+                <li><a href="{{ '/chi-siamo/' | relative_url }}" {% if page.url contains '/chi-siamo' %}class="active"{% endif %}>Chi Siamo</a></li>
+                <li><a href="{{ '/prodotti/' | relative_url }}" {% if page.url contains '/prodotti' %}class="active"{% endif %}>Prodotti</a></li>
+                <li><a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>Blog</a></li>
+                <li><a href="{{ '/contatti/' | relative_url }}" {% if page.url contains '/contatti' %}class="active"{% endif %}>Contatti</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>

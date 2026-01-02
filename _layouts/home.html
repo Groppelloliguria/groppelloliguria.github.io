@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<section class="hero">
+    <div class="hero-content">
+        <div class="container">
+            <h1 class="hero-title">{{ page.hero_title | default: site.title }}</h1>
+            <p class="hero-subtitle">{{ page.hero_subtitle | default: site.description }}</p>
+            {% if page.hero_cta %}
+            <div class="hero-cta">
+                <a href="{{ page.hero_cta_link }}" class="btn btn-primary">{{ page.hero_cta }}</a>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    {% if page.hero_image %}
+    <div class="hero-background" style="background-image: url('{{ page.hero_image }}');"></div>
+    {% else %}
+    <div class="hero-background hero-gradient"></div>
+    {% endif %}
+</section>
+
+<div class="page-content">
+    <div class="container">
+        {{ content }}
+    </div>
+</div>

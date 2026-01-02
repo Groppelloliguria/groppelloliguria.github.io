@@ -1,25 +1,18 @@
 ---
 permalink: /404.html
 layout: page
+title: "Pagina Non Trovata"
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+<div style="text-align: center; padding: 4rem 0;">
+  <h1 style="font-size: 6rem; color: var(--primary-color); margin-bottom: 1rem;">404</h1>
+  <h2 style="font-size: 2rem; margin-bottom: 2rem;">Pagina Non Trovata</h2>
+  <p style="font-size: 1.25rem; color: var(--text-light); margin-bottom: 3rem;">
+    Spiacenti, la pagina che stai cercando non esiste o è stata spostata.
+  </p>
+  <div style="display: flex; gap: 1rem; justify-content: center;">
+    <a href="{{ '/' | relative_url }}" class="btn btn-primary">Torna alla Home</a>
+    <a href="{{ '/prodotti/' | relative_url }}" class="btn btn-secondary">Scopri i Prodotti</a>
+  </div>
 </div>
+
